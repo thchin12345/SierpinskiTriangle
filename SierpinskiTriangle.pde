@@ -1,6 +1,6 @@
 public void setup()
 {
-background((int)Math.random()*255);
+background((int)Math.random()*256);
   size(500,600);
 }
 public void draw()
@@ -14,8 +14,8 @@ public void mouseDragged()//optional
 public void sierpinski(int x, int y, int len) 
 {
  if (len<=20){
-   color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-    fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+   color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+    fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
     
     
     triangle(x, y, x+len, y, x+len/2, y-len);
